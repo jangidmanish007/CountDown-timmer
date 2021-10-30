@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1.4rem;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+   text-align: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+}
+.day,
+.hour,
+.minute,
+.second {
+   font-size: 2.1rem;
+   padding: 1rem;
+   margin-bottom: 10px;
+   box-shadow: 0 0 17px rgba(190, 189, 189, 0.479),
+               inset 0 0 3px rgba(206, 204, 204, 0.582);
+   border-radius: 10px;
+   min-width: 60px;
+   width: 70px;
+}
+
+.day{
+    text-shadow: 1px 1px 3px rgb(255, 0, 0);
+}
+
+ h3.second {
+    color: red;
+    border: none;
+}
+
+.waiting{
+    height: 60vh;
+}
